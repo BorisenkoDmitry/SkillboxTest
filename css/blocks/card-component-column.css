@@ -1,0 +1,51 @@
+.plants__list.plants__list-column {
+    grid-template-columns: 1fr;
+}
+.plants__card-column {
+    padding: 25px 70px 40px 70px;
+}
+.plants__card-column .plants__card-bar {
+    background-color: transparent;
+    border-radius: 0;
+    padding: 0;
+}
+.plants__card-column .plants__card-info {
+    background-color: var(--c-white);
+    border-radius: 50px 0;
+    padding: 25px;
+    flex: 1 1 calc((100% - 60px) / 2);
+    min-width: 380px;
+}
+
+.plants__card-column .plants__card-text {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.plants__card-column .option__h3 {
+    font-size: 18px;
+}
+
+.plants__card-column .option__text {
+    font-size: 16px;
+}
+.plants__card-column .plants__card-link {
+    max-width: 210px;
+}
+
+.plants__card-column .plants__card-image {
+    max-width: 500px;
+}
+.plants__card-column .plants__card-figure {
+    flex-direction: column;
+    gap: 30px;
+    flex: 1 1 calc((100% - 60px) / 2);
+}
+.plants__card-column .plants__card-figcaption {
+    font-size: 24px;
+}
+.plants__card-column .plants__card-content {
+    flex-direction: row;
+    gap: 60px;
+    flex-wrap: wrap;
+}

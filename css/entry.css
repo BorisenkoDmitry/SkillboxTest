@@ -1,0 +1,11 @@
+/* Global */
+/* ------------------------------------ */
+@import './global//normalize.css';
+@import './global/fonts.css';
+@import './global/reboot.css';
+
+@import './global/_vars.css';
+
+/* Blocks */
+/* ------------------------------------ */
+@import './blocks/plants.css';

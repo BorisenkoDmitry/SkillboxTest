@@ -1,0 +1,8 @@
+:root {
+    --c-green: #475009;
+    --c-grgradient: linear-gradient(90deg, #C1DFC4 2.25%, #DEECDD 99.84%);
+    --c-white: #fff;
+    --c-violet: #502198;
+    --radius: 20px;
+    --shadow: drop-shadow(5px 5px 8px rgba(0, 111, 57, 0.40));
+}

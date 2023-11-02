@@ -1,0 +1,35 @@
+@media (hover) {
+    .plants__card {
+        transition-property: transform, box-shadow;
+        transition-duration: .3s;
+        transition-timing-function: ease-in-out;
+    }
+    .plants__card:hover {
+        transform: scale(1.01);
+        box-shadow: 5px 5px 8px rgba(0, 111, 57, 0.40);
+    }
+    .plants__card-image {
+        transition: .3s ease-in-out;
+    }
+    .plants__card:hover .plants__card-image {
+        border-radius: 0 70px;
+    }
+    .link-green {
+        transition-property: background-color, color;
+        transition-duration: .3s;
+        transition-timing-function: ease-in-out;
+    }
+    .link-green:hover {
+        background-color: var(--c-green);
+        color: var(--c-white)
+    }
+    .link-violet {
+        transition-property: background-color, color;
+        transition-duration: .3s;
+        transition-timing-function: ease-in-out;
+    }
+    .link-violet:hover {
+        background-color: var(--c-white);
+        color: var(--c-violet);
+    }
+}
